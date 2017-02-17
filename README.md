@@ -15,3 +15,11 @@ Editors:
 
 Commands:
 * gem update --system
+
+Books:
+* The Book of Ruby
+* pragprog.com
+* Хэл Фултон Ruby
+* sitepoint.com
+* pluralsight.com
+* http://ruby-doc.org/core/
