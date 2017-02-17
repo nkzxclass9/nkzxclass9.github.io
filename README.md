@@ -12,6 +12,7 @@ Editors:
 * vim
 * Aptana Studio
 * RubyMine
+* Atom
 
 Commands:
 * gem update --system
@@ -23,3 +24,4 @@ Books:
 * sitepoint.com
 * pluralsight.com
 * http://ruby-doc.org/core/
+* http://bodrovis.tech/en/categories/ruby-rails/posts/samouchitel-ruby-vstuplenie-podgotovitelnye-shagi-peremennye-obzor-tipov-dannyh-kommentarii
