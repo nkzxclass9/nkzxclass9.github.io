@@ -1,0 +1,26 @@
+<%= form_for comment, data: {remote: true} do |f| %>
+    <%= render 'shared/errors', object: comment %>
+    <div class="form-group row">
+      <div class="col-2">
+        <%= f.label :author, class: 'col-form-label' %>
+      </div>
+      <div class="col-10">
+        <%= f.text_field :author, class: 'form-control' %>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-2">
+        <%= f.label :body, class: 'col-form-label' %>
+      </div>
+      <div class="col-10">
+        <%= f.text_area :body, required: false, class: 'form-control' %>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="offset-2 col-10">
+        <%= f.submit 'Comment!', class: 'btn btn-primary' %>
+      </div>
+    </div>
+<% end %>
